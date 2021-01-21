@@ -1,0 +1,8 @@
+subscription Notification($code: String!) {
+  notification(code: $code)
+  {
+    id
+    name
+    nickName
+  }
+}
